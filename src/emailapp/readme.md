@@ -15,3 +15,18 @@ STUDENT DATABASE APP GOALS:
     - each course costs £600
     - Student can view balance
     - see full status of student, name, id, course, balance
+
+BANK ACCOUNT APP
+
+    - read .csv file of customer details
+    - hold in data structure
+    - Both savings and checking account share:
+                                            -deposit()
+                                            -withdraw()
+                                            -transfer()
+                                            -showInfo()
+    - 11 digit acc num (1or2 depending on savings or checking, last 2 digits of SSN, unique 5 digit num, random 3 digit num
+    - savings account holds get safetly depsit box identified with 3 digit num and accedd with 4 digit pin
+    -Checking account holders get debit card with 12 digit num and 4 digit pin
+    - use interface for base rate, saving will use 0.25 below BR and checking account 15% of BR
+    - showinfo reveals acc info
